@@ -25,7 +25,7 @@
 - Factor combinations that lead to higher defaults were identified
 - No machine learning methods were used ​
 - further analysis with a method such as gradient boosting may be useful
-<br>
+
 <br>
 
 ### Important factors affecting default rate  
@@ -41,8 +41,7 @@
 |delinq_2yrs_bin​|delinquencies in last 2 years – derived from delinq_2yrs​|Above 1​|
 |inq_last_6mths_bin​|inquiries in last 2 years – derived from inq_last_6mths​|Above 0​|
 |term​|Loan term​|60 months​|
-  
-<br>
+
 <br>
 
 ### Combinations for high default rate
