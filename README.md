@@ -61,7 +61,6 @@
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
 ## Acknowledgements
-Give credit here.
 - Kaggle eda discussed in live session - [house price eda](https://www.kaggle.com/ekami66/detailed-exploratory-data-analysis-with-python)
 - US regions - [link](https://www.kaggle.com/omer2040/usa-states-to-region/version/1)
 
