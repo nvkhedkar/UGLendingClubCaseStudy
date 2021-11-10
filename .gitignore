@@ -137,3 +137,4 @@ data/
 .vscode/settings.json
 logs/
 tmp/
+*.csv
