@@ -26,15 +26,15 @@
 
 |Factor|Description|Dangerous level|
 |-------------|------------|-------------|
-|annual_inc_class​|Annual income categorical we created​|Under 25th percentile​|
+|annual_inc_class​|Annual income categorical– derived from annual_inc​|Under 25th percentile​|
 |amnt_to_income​|Loan amount as % of annual income​|Above median​|
 |loan_amnt​|Amount of loan taken​|Above Median​|
 |int_rate​|Interest rate​|Above Median​|
-|pub_rec_bin​|Public derogatory records - 0 or 1​|Above 0​|
+|pub_rec_bin​|Public derogatory records - 0 or 1 – derived from pub_rec​|Above 0​|
 |purpose​|Why the loan was taken​|Small_business, Other​|
 |addr_state​|State​|'NE', 'NV', 'SD', 'AK', 'FL', 'MO', 'OR'​|
-|delinq_2yrs_bin​|delinquencies in last 2 years – we created​|Above 1​|
-|inq_last_6mths_bin​|inquiries in last 2 years – we created​|Above 0​|
+|delinq_2yrs_bin​|delinquencies in last 2 years – derived from delinq_2yrs​|Above 1​|
+|inq_last_6mths_bin​|inquiries in last 2 years – derived from inq_last_6mths​|Above 0​|
 |term​|Loan term​|60 months​|
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
