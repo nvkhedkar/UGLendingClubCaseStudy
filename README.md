@@ -23,7 +23,12 @@
 - Univariate, bivariate and multi-level interactions were studied
 - Factors affecting defaults were identified​
 - Factor combinations that lead to higher defaults were identified
+- No machine learning methods were used ​
+- further analysis with a method such as gradient boosting may be useful
+<br>
+<br>
 
+### Important factors affecting default rate  
 |Factor|Description|Dangerous level|
 |-------------|------------|-------------|
 |annual_inc_class​|Annual income categorical– derived from annual_inc​|Under 25th percentile​|
@@ -36,6 +41,17 @@
 |delinq_2yrs_bin​|delinquencies in last 2 years – derived from delinq_2yrs​|Above 1​|
 |inq_last_6mths_bin​|inquiries in last 2 years – derived from inq_last_6mths​|Above 0​|
 |term​|Loan term​|60 months​|
+  
+<br>
+<br>
+
+### Combinations for high default rate
+|Combination for default rate higher than 14.4%​||||Default rate​|
+|------------|------------|------------|------------|------------|
+|annual_inc_class < 25th percentile|​int_rate > median|small_business loan​||41.66%​|
+|annual_inc_class < 25th percentile​|int_rate > median| ​ small_business loan| ​ term = 60 months​|54.43%​|
+|annual_inc_class < 25th percentile ​| amnt_to_income > median | small_business loan|​  term = 60 months​|48.78%​|
+|annual_inc_class < 25th percentile​ | revol_bal > median |​ small_business loan​||43.75%​|
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
